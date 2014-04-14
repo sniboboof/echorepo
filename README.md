@@ -1,3 +1,5 @@
+An echo server exercise for codefellows using sockets.
+
 server.py has function waitformsg()
 waitformsg just opens a socket at the local address at socket 7539 and waits for a connection
 when it receives a connection, it opens a stream and sends any data it receives until the connection is closed or it receives data of NULL value
